@@ -32,7 +32,7 @@
     <header class="d-flex justify-content-center align-items-center gap-5 p-3">
         <h1 class="m-0">SIMON SAYS <i class="fas fa-arrow-right-long fa-shake fa-lg"></i></h1>
         <p class="m-0 fs-2" id="message">
-            Hai <span id="timer" class="fs-1 fw-bold">30</span> secondi per memorizzare questi 5 numeri!
+            Hai <span id="timer" class="fs-1 fw-bold">30</span> secondi per memorizzare questi numeri!
         </p>
     </header>
 
@@ -48,7 +48,7 @@
                     <div id="numero1">
                         1
                     </div>
-                    <input type="number" min="0" max="90" class="rounded-2">
+                    <input type="number" id="number1" min="0" max="90" class="rounded-2 d-none">
                 </div>
 
                 <!-- CARD 2 -->
@@ -56,7 +56,7 @@
                     <div id="numero2">
                         2
                     </div>
-                    <input type="number" min="0" max="90" class="rounded-2 ">
+                    <input type="number" id="number2" min="0" max="90" class="rounded-2 d-none">
                 </div>
 
                 <!-- CARD 3 -->
@@ -64,7 +64,7 @@
                     <div id="numero3">
                         3
                     </div>
-                    <input type="number" min="0" max="90" class="rounded-2 ">
+                    <input type="number" id="number3" min="0" max="90" class="rounded-2 d-none">
                 </div>
 
                 <!-- CARD 4 -->
@@ -72,7 +72,7 @@
                     <div id="numero4">
                         4
                     </div>
-                    <input type="number" min="0" max="90" class="rounded-2 ">
+                    <input type="number" id="number4" min="0" max="90" class="rounded-2 d-none">
                 </div>
 
                 <!-- CARD 5 -->
@@ -80,12 +80,12 @@
                     <div id="numero5">
                         5
                     </div>
-                    <input type="number" min="0" max="90" class="rounded-2 ">
+                    <input type="number" id="number5" min="0" max="90" class="rounded-2 d-none">
                 </div>
             </div>
 
             <!-- BOTTONE -->
-            <button type="submit" id="verify" class="btn btn-success">Scopri se hai vinto!</button>
+            <button type="submit" id="verify" class="btn btn-success d-none">Controlla se hai vinto!</button>
         </form>
 
     </main>
