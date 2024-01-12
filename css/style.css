@@ -1,7 +1,21 @@
 /** GENERICS */
 
+h1 {
+    margin: 0;
+    font-weight: 900;
+    text-shadow: 0 0 5px white;
+}
+
 input {
     max-width: 100px;
+    text-align: center;
+}
+
+#timer {
+    text-shadow: 0 0 5px white;
+    font-size: 40px;
+    font-weight: 800;
+
 }
 
 #verify {
@@ -10,3 +24,7 @@ input {
 }
 
 /** LAYOUT */
+
+header {
+    background-color: lightgreen;
+}

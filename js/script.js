@@ -44,7 +44,7 @@ const getRandomNumber = () => {
 //FUNZIONE CHE AL TERMINE DI UN COUNTDOWN NASCONDE I NUMERI E MOSTRA IL FORM
 
 const countDown = () => {
-    count = 5;
+    count = 30;
     timerElement.innerText = count;
 
     const timer = setInterval(() => {
